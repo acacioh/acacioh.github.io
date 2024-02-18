@@ -1,79 +1,77 @@
 @charset "UTF-8";
 
-/*
-#4BB3FD
-#0F7173
-#1DD3B0
-#0496FF
-#F26430
-*/
+:root {
+    --dark-blue: #022859;
+    --blue: #0487D9;
+    --cyan: #049DD9;
+    --white: #F2F2F2;
+    --pink: #D92579;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 
+html,
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark-blue);
 }
 
 header {
-    color: #0F7173;
-    text-align: center;
-    font-size: 1.4em;
-    font-family: 'Libre Baskerville', serif;
-    padding-bottom: 10px;
-}
-
-section {
-    background-color: white;
-    margin: 10px;
-}
-
-section > p {
-    margin: 0px;
-}
-
-abbr {
-    text-decoration: none;
-    font-style: italic;
-}
-
-p.second {
-    margin-top: 5px;
+    height: 55px;
+    overflow-y: hidden;
 }
 
 a {
     text-decoration: none;
-    color: #0496FF;
 }
 
-a:hover {
-    color: #F26430;
+#home {
+    color: var(--white);
+    width: 50px;
+    font-size: 2.8em;
+    padding: 5px;
+    margin-right: 3px;
+}
+
+.flag {
+    width: 35px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+    border-radius: 50%;
 }
 
 footer {
     background-color: black;
-    color: white;
-    border-radius: 4px;
+    color: var(--white);
+    border-radius: 10px;
     text-align: center;
-    margin: 10px;
+    width: 340px;
+    height: 75px;
     font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
-footer > nav {
+footer>nav {
     padding-top: 10px;
 }
 
-footer > p {
+footer>nav>a>img {
+    height: 30px;
+    width: 30px;
+}
+
+footer>p {
     margin-top: 0px;
     padding-bottom: 10px;
-}
-
-#onnitech {
-    width: 10%;
-    height: 10%;
-    margin-top: 10px;
-    margin-left: 100px;
-}
-
-a > h3 {
-    display: inline;
 }
