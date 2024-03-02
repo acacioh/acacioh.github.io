@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+html,
+body {
+    background-color: lightyellow;
+}
+
+main {
+    width: 430px;
+}

@@ -23,11 +23,15 @@
 html {
     width: 100vw;
     height: 100vh;
-    background-color: var(--white);
+    background-color: var(--dark-blue);
 }
 
 body {
     width: 350px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
 }
 
 header {
