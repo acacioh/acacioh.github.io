@@ -29,6 +29,7 @@ html {
 body {
     width: 350px;
     margin: auto;
+    margin-top: 10px;
     border-radius: 20px;
     background-color: var(--white);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);

@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
+html {
+    background-image: linear-gradient(to bottom, var(--cyan), var(--dark-blue));
+}
+
 body {
-    background-color: lightgreen;
     width: 430px;
     font-size: 1.1em;
 }
