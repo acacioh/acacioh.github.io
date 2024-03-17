@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    width: 800px;
+}
+
+#image {
+    display: block;
+    height: 50px;
+}
