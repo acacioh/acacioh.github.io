@@ -5,8 +5,10 @@ body {
 }
 
 #image {
-    display: block;
     height: 200px;
+    background: url('../../images/keyboard.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 #about {
