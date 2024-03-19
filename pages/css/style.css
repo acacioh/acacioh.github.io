@@ -109,7 +109,7 @@ footer>section {
     width: 340px;
     height: 75px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 
     transition: width .3s, heigth .3s;

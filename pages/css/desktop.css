@@ -1,28 +1,59 @@
 @charset "UTF-8";
 
 body {
-    width: 800px;
+    width: 600px;
 }
 
 #image {
-    height: 200px;
+    height: 160px;
     background: url('../../images/keyboard.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-#about {
-    float: left;
-    width: 400px;
+header {
+    font-size: 1.1em;
+}
+
+header>section>h1 {
+    font-size: 1.8em;
+}
+
+#onnitech {
+    width: 75px;
+
+    transform: translate(-1px, 1px);
 }
 
 main {
-    float: right;
-    width: 400px;
-    margin-top: -145px;
-    margin-bottom: 15px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 1.1em;
 }
 
 .logo {
     height: 30px;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+}
+
+button>p {
+    font-size: 1.15em;
+}
+
+footer>section {
+    width: 400px;
+    height: 85px;
+}
+
+footer>section>nav>a>img {
+    height: 35px;
+}
+
+footer>section>p {
+    margin-top: 3px;
+    font-size: 1.2em;
 }
