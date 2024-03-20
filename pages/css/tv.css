@@ -1,16 +1,12 @@
 @charset "UTF-8";
 
-html {
+body {
+    width: 750px;
     background-color: rgba(0, 0, 0, 0);
 }
 
-body {
-    width: 650px;
-    background-color: green
-}
-
 header {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 header>section>h1 {
@@ -18,41 +14,45 @@ header>section>h1 {
 }
 
 #onnitech {
-    width: 75px;
+    width: 85px;
+
+    transform: translate(-1px, 1.5px);
 }
 
 main {
-    margin-left: -20px;
     font-size: 1.2em;
-    text-align: center;
+    padding-left: 60px;
 }
 
 .logo {
-    height: 35px;
+    height: 45px;
     vertical-align: middle;
 }
 
 button {
-    height: 50px;
-    width: 250px;
+    height: 60px;
+    width: 300px;
 }
 
 button>p {
-    font-size: 1.3em;
+    font-size: 1.5em;
 
     transform: translate(0px, -1px);
 }
 
-footer {
+footer>section {
     width: 450px;
-    height: 100px;
+    height: 90px;
 }
 
-footer>nav>a>img {
-    height: 45px;
+footer>section>nav {
+    padding-top: 10px;
 }
 
-footer>p {
+footer>section>nav>a>img {
+    height: 40px;
+}
+
+footer>section>p {
     font-size: 1.4em;
-    margin-top: 5px;
 }
