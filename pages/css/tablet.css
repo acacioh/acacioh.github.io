@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    width: 430px;
+    font-size: 1.1em;
+    background-image: linear-gradient(to bottom, var(--cyan), var(--dark-blue));
+}
+
+#onnitech {
+    width: 65px;
+
+    transform: translate(-1px, 0.5px);
+}
+
+.logo {
+    height: 35px;
+}
+
+main>article>h2 {
+    font-size: 1.1em;
+}
+
+button {
+    height: 40px;
+    width: 250px;
+}
+
+button>p {
+    font-size: 1.2em;
+
+    transform: translate(0px, -2px);
+}
+
+footer>section {
+    width: 400px;
+    height: 90px;
+}
+
+footer>section>nav>a>img {
+    height: 40px;
+}
+
+footer>section>p {
+    font-size: 1.2em;
+}

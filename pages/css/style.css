@@ -23,24 +23,28 @@
 html {
     width: 100vw;
     height: 100vh;
-    background-color: var(--white);
 }
 
 body {
     width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: var(--dark-blue);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
 }
 
 header {
     text-align: center;
-    margin: 10px 0px;
+    background-color: var(--white);
 }
 
-header>h1 {
+header>section>h1 {
     font-family: 'VT323', monospace;
-    margin-bottom: 5px;
+    margin: 5px 0px;
 }
 
-header>p {
+header>section>p {
     margin: 0px 20px;
 }
 
@@ -51,7 +55,8 @@ header>p {
 }
 
 main {
-    margin-left: 20px;
+    padding-left: 20px;
+    background-color: var(--white);
 }
 
 #skills>p {
@@ -84,6 +89,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: var(--blue);
 }
 
 button>p {
@@ -93,28 +99,32 @@ button>p {
 }
 
 footer {
+    background-color: var(--white);
+}
+
+footer>section {
     background-color: black;
     border-radius: 10px;
     text-align: center;
     width: 340px;
     height: 75px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 
     transition: width .3s, heigth .3s;
     transition-timing-function: ease;
 }
 
-footer>nav {
+footer>section>nav {
     padding-top: 10px;
 }
 
-footer>nav>a>img {
+footer>section>nav>a>img {
     height: 30px;
 }
 
-footer>p {
+footer>section>p {
     color: var(--white);
     margin-top: 0px;
     padding-bottom: 10px;
